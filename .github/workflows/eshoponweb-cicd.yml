@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: minh-GITHUB-ACTIONS
   LOCATION: “eastasia”
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: ${{secrets.AZURE_CREDENTIALS}}
+  SUBSCRIPTION-ID: ${{ secrets.AZURE_CREDENTIALS }}
   WEBAPP-NAME: minhwebappabcdeadwer
 
 
